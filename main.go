@@ -18,8 +18,8 @@ func main()  {
 	changeColorSwitch.execute()
 
 
-	offAlexa := ChangeColorCommand{lamp: alexa}
-	offSwitch := ChangeColorCommand{lamp: swit}
+	offAlexa := OffCommand{lamp: alexa}
+	offSwitch := OffCommand{lamp: swit}
 
 	offAlexa.execute()
 	offSwitch.execute()
